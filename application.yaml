@@ -44,8 +44,9 @@ logging:
   level:
     org:
       springframework:
-        web: DEBUG
-
+        cloud:
+          sleuth: DEBUG
+          
 logging:
   level:
     org:
